@@ -49,8 +49,8 @@ def writeRank(getrank):
 
 
 i = 1
-getrank = getRank()
 while (i == 1):
+    getrank = getRank()
     if os.path.exists('edurank.txt'):
         with open("edurank.txt") as f:
             rank = f.read()
